@@ -3,7 +3,6 @@ Ticketing Backend API
 Backend test built with .NET 8, ASP.NET Core Web API and Entity Framework Core.
 Uses SQLite as a local database and implements JWT Authentication following RESTful best practices.
 
-پHow to Run
 How to Run
 
 Clone the repository:
