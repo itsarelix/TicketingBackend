@@ -1,42 +1,42 @@
-Ticketing Backend API
+🚀 Ticketing Backend API
 
 Backend test built with .NET 8, ASP.NET Core Web API and Entity Framework Core.
 Uses SQLite as a local database and implements JWT Authentication following RESTful best practices.
 
-How to Run
+🚀 How to Run
 
-Clone the repository:
--git clone https://github.com/<your-username>/<repo-name>.git
--cd <repo-name>
+⭐ Clone the repository:
+💠 git clone https://github.com/<your-username>/<repo-name>.git
+💠 cd <repo-name>
 
-Restore dependencies and setup the database:
--dotnet restore
--dotnet ef database update
+⭐ Restore dependencies and setup the database:
+💠 dotnet restore
+💠 dotnet ef database update
 
-Run the project:
--dotnet run
+⭐ Run the project:
+💠 dotnet run
 
-Open Swagger:
--https://localhost:5001/swagger
-
-
-Seed Data
-
-Automatically adds:
--admin => admin@example.com / Admin@123
--employee => employee@example.com / Employee@123
+⭐ Open Swagger:
+💠 https://localhost:5001/swagger
 
 
--Focused on clean code and RESTful API structure
--JWT used for authentication
--No frontend included
--Runs locally without external dependencies
+🚀 Seed Data
+
+⭐ Automatically adds:
+💠 admin => admin@example.com / Admin@123
+💠 employee => employee@example.com / Employee@123
 
 
-Testing
+⚡Focused on clean code and RESTful API structure
+⚡JWT used for authentication
+⚡No frontend included
+⚡Runs locally without external dependencies
 
-Use Swagger or Postman to test endpoints.
+
+🚀 Testing
+
+⭐ Use Swagger or Postman to test endpoints
 Examples:
--POST /api/auth/login
--GET /api/tickets
--POST /api/tickets
+💠 POST /api/auth/login
+💠 GET /api/tickets
+💠 POST /api/tickets
